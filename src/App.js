@@ -1,13 +1,16 @@
-import React, { useEffect } from "react";
-import p5 from 'p5';
-import circle from './sketch/cricle';
+import SampleSketch from "./SampleSketch"
 
-const Canvas = () => {
-  useEffect(() => {
-    new p5(circle); // p5.jsのキャンバスを生成
-  }, []);
+// Appコンポーネントの定義
+function App() {
+  return (
+    <div className="App">
+      <h1>Hello, world!</h1>
 
-  return (<></>);
-};
+      {/* p5.jsのスケッチ */}
+      <SampleSketch />
+    </div>
+  );
+}
 
-export default Canvas;
+// Appコンポーネントを他のファイルで利用できるようにエクスポート
+export default App;
