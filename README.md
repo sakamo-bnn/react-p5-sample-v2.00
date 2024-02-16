@@ -1,7 +1,7 @@
 # はじめに
 この記事では React で p5.js を使う手順をまとめています。参考までに Github で必要なファイルを公開しているので、次のリポジトリでご確認ください。
 
-https://github.com/sakamo-bnn/react-p5-sample
+https://github.com/sakamo-bnn/react-p5-sample-v2.00
 
 # 作業ディレクトリの用意
 まずは、プロジェクト用のディレクトリを用意します。ここでは ```react-p5-sample``` というフォルダ内での作業例を示していきます。このフォルダ名は、後述の ```npm init -y``` コマンドの動作と関連します。
